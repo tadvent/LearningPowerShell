@@ -4,7 +4,7 @@ EXIT /B
 ############################################################
 
 $url = 'http://bbs.9gal.com/kf_smbox.php'
-$visible = $false
+$visible = $true
 $boxnumwall = 90
 
 $next_time = [int](read-host "? minutes before next click ?")
